@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body{
+    background-color: #ADA8F8;
+    font-family: 'Poppins', sans-serif;
+}
+#container{
+    display: flex;
+    float: left;
+    margin-left: 12em;
+    margin-top: 5em;
+    box-sizing: border-box;
+    
+}
+.box1{
+    border: none;
+    margin: auto;
+    width: 450px;
+    height: 75vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #5650F2;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.box1 button{
+    position: absolute;
+    top: 200px;
+    left: 530px;
+    padding: 20px 0;
+    width: 10%;
+    background-color: #fff;
+    border: none;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #3D3587;
+
+
+}
+.box1 img{
+    padding-top: 170px;
+    padding-left: 30px;
+}
+.box1 span{
+    position: absolute;
+    top: 280px;
+    margin-left: auto;
+    color: #ECECFF;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+.box2{
+    border: 1px solid #FFFFFF;
+    margin: auto;
+    width: 450px;
+    height: 75vh;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.box2 .info{
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.info h1{
+    color: #4F4CD8;}
+.info p{
+    color: #6F6F6F;
+    font-size: 12px;
+} 
+.info p, .info h1{line-height: 0.5;}
+
+form{
+    font-size: smaller;
+    line-height: 1;
+}
+ input[type="email"],input[type="password"]{
+    border:1px solid #A5A5A5;
+    padding: 15px;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: tahoma;
+}
+label{
+    line-height: 1.8;
+}
+form span{
+    font-size: small;
+    margin-left: 35px;
+    
+}
+/* input [type="checkbox"]{
+    display: flex;
+    align-items: center;
+    
+    
+} */
+form span a{text-decoration: none;}
+
+ input[type="submit"]{
+    color: #fff;
+    background-color: #5650F2;
+    width: 83%;
+    padding: 13px 0;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border:1px solid #A5A5A5;
+    width: 83%;
+    padding: 13px 0;
+    border-radius: 10px;
+    background: none;
+    color: #333333;
+    font-size: smaller;
+    
+    
+    
+}
+button img{
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+form p.last{
+    margin-left: 85px;
+    font-size: 13px;
+    padding-top: 8px;
+    
+}
+form p a{
+    text-decoration: none;
+}
+
+
